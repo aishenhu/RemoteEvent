@@ -1,0 +1,20 @@
+{
+    "name": "RemoteEvent",
+    "version": "0.0.1",
+    "description": "Event System Based on ZMQ",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": "",
+    "keywords": [
+        "Event",
+        "Remote",
+        "ZMQ"
+    ],
+    "author": "AishenHu",
+    "license": "BSD",
+    "dependencies": {
+        "zmq": "2.4.0"
+    }
+}
