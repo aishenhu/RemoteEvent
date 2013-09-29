@@ -1,12 +1,12 @@
 {
-    "name": "RemoteEvent",
+    "name": "remote_event",
     "version": "0.0.1",
     "description": "Event System Based on ZMQ",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "",
+    "repository": "https://github.com/aishenhu/RemoteEvent.git",
     "keywords": [
         "Event",
         "Remote",
