@@ -63,6 +63,27 @@ REvent.prototype.notifyObservers = function(event, param){
 }
 
 /**
+ * 基于event的RPC调用
+ * @param rpcRoute rpc的调用route
+ * @param param
+ * @param callback rpc调用的回调函数
+ *          callback = function(error, data){}
+ *          其中：error 表示rpc调用遇到的error
+ *               data  表示rpc服务返回的数据， 字符串格式
+ */
+REvent.prototype.rpc = function(rpcRoute, param, callback){
+    this._client.rpc(rpcRoute, param, callback);
+}
+
+REvent.prototype.registerRpc = function(rpcRoute, callback){
+    this._client.registerRpc(rpcRoute, callback);
+}
+
+REvent.prototype.unRegisterRpc = function(rpcRoute, callback){
+    this._client.unRegisterRpc(rpcRoute, callback);
+}
+
+/**
  * 启动REvent的server实例
  *      在指定的host, port上启动server实例
  *      host目前仅在本机

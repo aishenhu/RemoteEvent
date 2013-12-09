@@ -1,0 +1,22 @@
+[ 'flyfish-rpc', '0.0.0.0', '14000', '14001' ]
+[ flyfish-rpc ] REvent Server start.
+Server on Message:  {"event":"flyfish.user.rpc.test","param":{"name":"REvent","_rpc_":0}}
+Server on Message:  {"event":"0-rpcRoute-callback","param":"[Mon Dec 09 2013 16:42:22 GMT+0800 (CST)] reply: flyfish.user.rpc.test, {\"name\":\"REvent\"}"}
+Server on Message:  {"event":"flyfish.user.rpc.test","param":{"name":"REvent","_rpc_":1}}
+Server on Message:  {"event":"1-rpcRoute-callback","param":"[Mon Dec 09 2013 16:42:23 GMT+0800 (CST)] reply: flyfish.user.rpc.test, {\"name\":\"REvent\"}"}
+Server on Message:  {"event":"flyfish.user.rpc.test","param":{"name":"REvent","_rpc_":2}}
+Server on Message:  {"event":"2-rpcRoute-callback","param":"[Mon Dec 09 2013 16:42:23 GMT+0800 (CST)] reply: flyfish.user.rpc.test, {\"name\":\"REvent\"}"}
+Server on Message:  {"event":"flyfish.user.rpc.test","param":{"name":"REvent","_rpc_":3}}
+Server on Message:  {"event":"3-rpcRoute-callback","param":"[Mon Dec 09 2013 16:42:24 GMT+0800 (CST)] reply: flyfish.user.rpc.test, {\"name\":\"REvent\"}"}
+[ 'flyfish-rpc', '0.0.0.0', '14000', '14001' ]
+[ flyfish-rpc ] REvent Server start.
+Server on Message:  {"event":"flyfish.user.rpc.test","param":{"name":"REvent","_rpc_":0}}
+Server on Message:  {"event":"0-rpcRoute-callback","param":"[Mon Dec 09 2013 16:43:09 GMT+0800 (CST)] reply: flyfish.user.rpc.test, {\"name\":\"REvent\"}"}
+Server on Message:  {"event":"flyfish.user.rpc.test","param":{"name":"REvent","_rpc_":1}}
+Server on Message:  {"event":"1-rpcRoute-callback","param":"[Mon Dec 09 2013 16:43:10 GMT+0800 (CST)] reply: flyfish.user.rpc.test, {\"name\":\"REvent\"}"}
+Server on Message:  {"event":"flyfish.user.rpc.test","param":{"name":"REvent","_rpc_":2}}
+Server on Message:  {"event":"2-rpcRoute-callback","param":"[Mon Dec 09 2013 16:43:10 GMT+0800 (CST)] reply: flyfish.user.rpc.test, {\"name\":\"REvent\"}"}
+Server on Message:  {"event":"flyfish.user.rpc.test","param":{"name":"REvent","_rpc_":3}}
+Server on Message:  {"event":"3-rpcRoute-callback","param":"[Mon Dec 09 2013 16:43:11 GMT+0800 (CST)] reply: flyfish.user.rpc.test, {\"name\":\"REvent\"}"}
+Server on Message:  {"event":"flyfish.user.rpc.test","param":{"name":"REvent","_rpc_":4}}
+Server on Message:  {"event":"4-rpcRoute-callback","param":"[Mon Dec 09 2013 16:43:11 GMT+0800 (CST)] reply: flyfish.user.rpc.test, {\"name\":\"REvent\"}"}
