@@ -72,7 +72,8 @@ REvent.prototype.notifyObservers = function(event, param){
  *               data  表示rpc服务返回的数据， 字符串格式
  */
 REvent.prototype.rpc = function(rpcRoute, param, callback){
-    this._client.rpc(rpcRoute, param, callback);
+    this._client.rpc.apply(this._client, [].slice.call(arguments));
+
 }
 
 REvent.prototype.registerRpc = function(rpcRoute, callback){
